@@ -55,7 +55,7 @@ func TestProtectedMap(t *testing.T) {
 
 	for i := 1; i <= year; i++ {
 		if pm.m[i] != 3 {
-			t.Errorf("m[k] = %d", i)
+			t.Errorf("pm.m[i] = %d", pm.m[i])
 		}
 	}
 }
